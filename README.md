@@ -1,6 +1,6 @@
 # v0.1
 
-> A Vue.js project
+> A Vue.js project with webpack & vuetify and vuerouter
 
 ## Build Setup
 
