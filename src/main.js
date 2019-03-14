@@ -17,17 +17,15 @@ import '@mdi/font/css/materialdesignicons.css'
 Vue.use(Vuetify,{
   iconfont: 'mdi' // 'md' || 'mdi' || 'fa' || 'fa4'
 });
-Vue.use(VueResource);
+
 loadExporting(Highcharts);
 Vue.use(Highcharts);
 Vue.use(HighchartsVue);
-Vue.use(VueResource);
+
 addMore(Highcharts);
 
 
 Vue.config.productionTip = false;
-Vue.http.options.emulateJSON = true;
-Vue.http.options.emulateHTTP = true;
 
 /* eslint-disable no-new */
 export const eventBus=new Vue();
